@@ -1,0 +1,67 @@
+/*SELECTOR UNIVERSAL */
+
+ /* *{
+    background-color:aliceblue;
+ } */
+
+
+    /*SELECTOR DE ETIQUETA */
+   
+    body {
+        background-image: url("https://www.creativosonline.org/wp-content/uploads/2014/02/fondos-gratis.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        
+        }
+       h1 {
+        background-color: rgba(0, 0, 255, 0.178);
+        color:rgb(139, 14, 14);
+        padding: 10px;
+        text-align: center;
+        }
+    
+        /*SELECTOR DE CLASE */
+        .imagen{
+            width:30%;
+           height: 10%;
+           border: 5px solid rgba(218, 36, 36, 0.78);
+        }
+
+    /* SELECTOR DE IDENTIFICADOR O ID */
+    #titulo{
+        background-color: brown;
+    
+    /*SELECTOR DESCENDIENTE */
+    }
+    section ul{
+        background-color: rgba(0, 255, 38, 0.354);
+    }
+    /*COMBINACION DE SELECTORES */
+    h3,p{
+        background-color: rgba(99, 152, 82, 0.778);
+    }
+    /*SELECTOR HIJO */
+    section>h2{
+        background-color: rgba(0, 0, 0, 0.312);color: white;
+    }
+    
+    /*SELECTOR ADYACENTE */
+    p+div{
+        background-color: rgba(250, 225, 29, 0.926);
+    }
+    .parrafos{
+        background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+    .parrafos{
+        background-color: rgb(127, 255, 144);
+    }
+
+
+    
